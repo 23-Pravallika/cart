@@ -1,3 +1,4 @@
 @Library('shared-library-robo') _
 
-nodejs.lintchecks('cart')
+env.COMPONENT="cart"
+nodejs.lintchecks()
