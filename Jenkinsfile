@@ -9,7 +9,7 @@ pipeline {
                     test.info('Starting')
                 }
                 sh "echo Installing JSlist"
-                sh "npm i jslint"
+                sh "npm install jslint"
                 sh "node_modules/jslint/bin/jslint.js server.js"
             }
         }
