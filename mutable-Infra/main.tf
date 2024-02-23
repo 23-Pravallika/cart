@@ -7,6 +7,6 @@ module "cart" {
     OD_INSTANCE_COUNT = var.OD_INSTANCE_COUNT
     SPOT_INSTANCE_COUNT = var.SPOT_INSTANCE_COUNT
     APP_VERSION = var.APP_VERSION
-    LB_TYPE = var.LB_TYPE
+    LB_TYPE = "internal"
 }
 
